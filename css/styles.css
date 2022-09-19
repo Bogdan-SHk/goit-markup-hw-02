@@ -1,0 +1,28 @@
+body {
+    color: #757575;
+    background-color: #F5F5F5;
+}
+.logo {
+    color: #000000;
+}
+.logo-decor {
+    color: #2196F3;
+}
+.nav-list .link {
+    color: #212121;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: #2196F3;
+}
+.mail,
+.tel {
+    color: #757575;
+}
+.mail:hover,
+.tel:hover,
+.mail:focus,
+.tel:focus {
+    color: #2196F3;
+}
