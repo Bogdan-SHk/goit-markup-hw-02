@@ -1,28 +1,103 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --white-color: #FFFFFF;
+    --accent-color: #2196F3; 
+}
 body {
-    color: #757575;
+    color: var(--primary-text-color);
     background-color: #F5F5F5;
 }
+
+/* Header */
 .logo {
     color: #000000;
 }
 .logo-decor {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .nav-list .link {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
-
 .nav-list .link:hover,
 .nav-list .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .mail,
 .tel {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .mail:hover,
 .tel:hover,
 .mail:focus,
 .tel:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+/* Banner */
+.banner-title {
+    color: var(--white-color);
+    background-color: #2F303A;
+}
+.banner-button {
+    color: var(--secondary-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.banner-button:hover,
+.banner-button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Features */
+.features-title {
+    color: var(--secondary-text-color);
+}
+
+/* Functions */
+.functions-title {
+    color: var(--secondary-text-color);
+}
+
+/* Team */
+.team-title {
+    color: var(--secondary-text-color);
+}
+.team-member {
+    color: var(--secondary-text-color);
+}
+
+/* Footer */
+.logo-footer {
+    color: var(--white-color);
+}
+.contacts {
+    color: var(--white-color);
+    background-color: #2F303A;
+}
+.contacts .mail,
+.contacts .tel {
+    color: rgba(255, 255, 255, 0.6)
+}
+.contacts .mail:hover,
+.contacts .tel:hover,
+.contacts .mail:focus,
+.contacts .tel:focus {
+    color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+.button {
+    color: var(--secondary-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;    
+}
+.button:hover,
+.button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.work-title {
+    color: var(--secondary-text-color);
 }
