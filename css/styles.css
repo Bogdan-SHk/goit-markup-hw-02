@@ -4,13 +4,12 @@
     --primary-white-color: #FFFFFF;
     --primary-black-color: #000000;
     --accent-color: #2196F3;
-    --primary-background-color: #F5F5F5;
     --secondary-background-color: #2F303A;
     --button-background-color: #F5F4FA;
 }
 body {
     color: var(--primary-text-color);
-    background-color: var(--primary-background-color);
+    background-color: var(--primary-white-color);
     
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -116,6 +115,9 @@ body {
 }
 
 /* Team */
+.team {
+    background-color: var(--button-background-color);
+}
 .team-title {
     color: var(--secondary-text-color);
     
