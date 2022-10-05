@@ -11,7 +11,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
     letter-spacing: 0.03em;
 }
 
